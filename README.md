@@ -30,7 +30,7 @@ To install the software, follow these simple steps:-
 * b)	On the interfaces tab, set Serial to ‘Disabled’
 * c)	On the interfaces tab, set SPi to enabled
 3.	git clone https://github.com/SiSoup/PiiCode.git
-4.	cd iCode/iCodeDemo/build
+4.	cd PiiCode/iCodeDemo/build
 5.	sudo apt-get install cmake
 6.	cmake ..
 * a)	NOTE: The 2 full stops are important
