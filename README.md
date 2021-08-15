@@ -5,6 +5,7 @@ The sample software is built on the ST25R3911B HF RFID Reader IC  rfal libraries
 After installation there will be two key direcrories within the iCode folder;
 
 1 - The original rfal_V1.3.0 files from ST including the nfc_poller demo application, upon which this demo is based.
+
 2 - The Cogniot iCodeDemo folder containing an extension of nfc_poller for increased functionality - this is installed, built and used as described below.
 
 Using the supplied software the following functions are available, each command being accessed by the letter.
@@ -17,7 +18,7 @@ Using the supplied software the following functions are available, each command 
 * e – Exit Program
 Note 1: Options a, s and m are based on the examples provided by ST.
 
-For more information about these commands and all of the functionality of the PiiCode reader please refer to the datasheet which can be found at http://cogniot.eu/wp/nfc-reader/ .
+For more information about these commands and all of the functionality of the PiiCode reader please refer to the datasheet which can be found at https://cogniot.eu/wp/long-range-rfid-reader/
 
 # Installation Instructions
 To install the software, follow these simple steps:-
@@ -28,7 +29,7 @@ To install the software, follow these simple steps:-
 * a)	From the Menu, select Preferences, Raspberry Pi Configuration
 * b)	On the interfaces tab, set Serial to ‘Disabled’
 * c)	On the interfaces tab, set SPi to enabled
-3.	git clone https://github.com/CognIot/iCode.git
+3.	git clone https://github.com/SiSoup/PiiCode.git
 4.	cd iCode/iCodeDemo/build
 5.	sudo apt-get install cmake
 6.	cmake ..
