@@ -1,5 +1,5 @@
 /*
-* Provided by Bostin Technology
+* Provided by SiliconSoup
 *
 * Based on the Demo software provided by 
 *     COPYRIGHT 2018 STMicroelectronics
