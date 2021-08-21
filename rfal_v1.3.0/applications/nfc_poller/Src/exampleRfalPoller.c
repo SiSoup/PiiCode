@@ -71,7 +71,7 @@
 #include "rfal_nfcDep.h"
 #include "rfal_analogConfig.h"
 
-const char* LOG_HEADER = "\r\nDemo Software provided by Bostin Technology\n\rScanning for NFC technologies \n\r";
+const char* LOG_HEADER = "\r\nDemo Software provided by SiliconSoup\n\rScanning for NFC technologies \n\r";
 
 
 
@@ -219,8 +219,8 @@ static bool exampleRfalPollerDeactivate( void );
 int splashscreen(void)
 {
     platformLogClear();
-    printf("\n***********************************************\n");
-    printf("*             Bostin Technology               *\n");
+    printf("\n**********************************************\n");
+    printf("*                SiliconSoup                  *\n");
     printf("*                                             *\n");
     printf("*                NFC2 Reader                  *\n");
     printf("*                                             *\n");
